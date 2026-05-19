@@ -35,6 +35,21 @@ body {
 
 .menu {
     display: flex;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+
+.menu {
+    display: flex;
     list-style: none;
     gap: 3rem;
     justify-content: center;
